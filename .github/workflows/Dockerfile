@@ -1,6 +1,6 @@
 ARG r_version
 ARG os_version
-FROM ghcr.io/yuri05/base-r${r_version}-${os_version}:main
+FROM ghcr.io/open-systems-pharmacology/base-r${r_version}-${os_version}:latest
 
 # Args are resetted by FROM - thus need to redeclare! s. https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact
 ARG r_version
