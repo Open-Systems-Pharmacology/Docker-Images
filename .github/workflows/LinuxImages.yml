@@ -34,5 +34,5 @@ jobs:
             os_version=${{ matrix.os_version }}
           push: true
           tags: |
-            ghcr.io/open-systems-pharmacology/ospsuite_9.1-reportingengine_1.1-r${{ matrix.r_version }}-${{ matrix.os_version }}:latest
-#            ghcr.io/open-systems-pharmacology/ospsuite_9.1-reportingengine_1.1-r${{ matrix.r_version }}-${{ matrix.os_version }}:${{ steps.tag_name.outputs.SOURCE_TAG}}
+            ghcr.io/open-systems-pharmacology/ospsuite_10.0-reportingengine_1.2-r${{ matrix.r_version }}-${{ matrix.os_version }}:latest
+#            ghcr.io/open-systems-pharmacology/ospsuite_10.0-reportingengine_1.2-r${{ matrix.r_version }}-${{ matrix.os_version }}:${{ steps.tag_name.outputs.SOURCE_TAG}}
